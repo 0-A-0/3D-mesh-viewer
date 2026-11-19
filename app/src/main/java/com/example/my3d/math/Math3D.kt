@@ -1,9 +1,8 @@
-package com.example.my3d.ui.theme.canvas
+package com.example.my3d.math
 
-import com.example.my3d.WIN
-import com.example.my3d.ui.theme.structure.Figure
-import com.example.my3d.ui.theme.structure.Point
-import com.example.my3d.ui.theme.structure.Polygon
+import com.example.my3d.structure.Figure
+import com.example.my3d.structure.Point
+import com.example.my3d.structure.Polygon
 import java.lang.Math.pow
 import kotlin.math.sqrt
 

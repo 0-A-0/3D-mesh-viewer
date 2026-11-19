@@ -1,4 +1,4 @@
-package com.example.my3d.ui.theme.structure
+package com.example.my3d.structure
 
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf

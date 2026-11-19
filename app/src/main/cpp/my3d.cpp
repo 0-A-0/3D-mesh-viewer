@@ -39,7 +39,7 @@ struct Array_4{
 };
 
 void cacheFieldsId(JNIEnv *env){
-    jclass Point = env->FindClass("com/example/my3d/ui/theme/structure/Point");
+    jclass Point = env->FindClass("com/example/my3d/structure/Point");
     fid_x = env->GetFieldID(Point,"x","F");
     fid_y = env->GetFieldID(Point,"y","F");
     fid_z = env->GetFieldID(Point,"z","F");
@@ -102,7 +102,7 @@ jint JNI_OnLoad(JavaVM* vm,void* reserved){
 }
 extern "C" {
 //JNIEXPORT void JNICALL
-//Java_com_example_my3d_ui_theme_canvas_CppFuns_00024Companion_mult(JNIEnv *env, jobject thiz, jfloatArray t,
+//Java_com_example_my3d_math_CppFuns_00024Companion_mult(JNIEnv *env, jobject thiz, jfloatArray t,
 //                                                   jfloatArray m, jfloatArray result) {
 //    jfloat *T = env->GetFloatArrayElements(t, nullptr);
 //    jfloat *M = env->GetFloatArrayElements(m, nullptr);
@@ -119,7 +119,7 @@ extern "C" {
 //    env->ReleaseFloatArrayElements(result, Result, 0);
 //}
 JNIEXPORT void JNICALL
-Java_com_example_my3d_ui_theme_canvas_CppFuns_00024Companion_transformPoints(JNIEnv *env, jobject thiz,
+Java_com_example_my3d_math_CppFuns_00024Companion_transformPoints(JNIEnv *env, jobject thiz,
                                                               jfloat valueX, jfloat valueY,
                                                               jobjectArray points) {
     jsize len = (*env).GetArrayLength(points);

@@ -1,6 +1,6 @@
-package com.example.my3d.ui.theme.canvas
+package com.example.my3d.math
 
-import com.example.my3d.ui.theme.structure.Point
+import com.example.my3d.structure.Point
 
 class CppFuns {
     companion object {

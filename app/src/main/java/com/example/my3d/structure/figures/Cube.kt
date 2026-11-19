@@ -1,10 +1,10 @@
-package com.example.my3d.ui.theme.figures
+package com.example.my3d.structure.figures
 
 import androidx.compose.ui.graphics.Color
-import com.example.my3d.ui.theme.structure.Edge
-import com.example.my3d.ui.theme.structure.Figure
-import com.example.my3d.ui.theme.structure.Point
-import com.example.my3d.ui.theme.structure.Polygon
+import com.example.my3d.structure.Edge
+import com.example.my3d.structure.Figure
+import com.example.my3d.structure.Point
+import com.example.my3d.structure.Polygon
 
 class Cube(
     val scaleX:Float = 1f,
